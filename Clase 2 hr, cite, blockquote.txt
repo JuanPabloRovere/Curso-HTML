@@ -1,0 +1,20 @@
+parrafos <p> </p>
+
+cambio de renglon dentro de parrafo <br>
+
+subtitulo <h2> </h2>
+
+negritas <b> </b> bold o se puede poner <strong> </strong>
+Si usas el de strong, el navegador de Google le va a dar mas bola/
+Si abusas del strong google te penalisa y no lo busca tanto
+
+manuscrita <i> </i>
+
+para hacer una cita de alguien
+<blockquote> </blockquote>
+
+Para poner el autor de esa cita
+<cite></cite>
+
+Lineas separadoras
+<hr/> ojo que la llave va del otro lado

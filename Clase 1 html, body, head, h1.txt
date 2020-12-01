@@ -1,0 +1,12 @@
+Etiqueta <xzxcasdqw> : codigo que representa algo en un sitio web
+
+Para escribir comentarios guias
+
+<!--xasdasdiasd-->
+
+head: el nombre de la pagina, arriba de todo
+
+body: lo que sucede dentro de la pagina
+
+h1, 2, 3: titulos
+

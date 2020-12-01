@@ -1,0 +1,98 @@
+Clase 8 de CSS Texto y Tipografia
+
+Para cambiar tipografia
+
+p {
+	color:blue;
+	font-family:"Verdana";
+}
+
+Para elegir el ancho de las letras usar el weight
+
+p {
+	color:blue;
+	font-family:"Verdana";
+	font-size:40px;
+	font-weight:bold;
+}
+
+Para alinear el texto, text align
+
+p {
+	color:blue;
+	font-family:"Verdana";
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+}
+
+Para el interlineado line heaight
+
+p {
+	color:blue;
+	font-family:"Verdana";
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	line-height:20px;
+}
+
+Para agregar alguna decoracion (underline, overline,line-trought(tachar texto))
+
+p {
+	color:blue;
+	font-family:"Verdana";
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	line-height:20px;
+	text-decoration:underline;
+}
+
+Para transformar el texto
+capitalize, cada letra que arranca cada linea es mayuscula
+uppercase:todas en mayuscula
+lowercase: todas minusculas
+
+p {
+	color:blue;
+	font-family:"Verdana";
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	line-height:20px;
+	text-decoration:underline;
+}
+
+Espaciado entre letras
+
+p {
+	color:blue;
+	font-family:"Verdana";
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	line-height:20px;
+	text-decoration:underline;
+	text-transform:capitalize;
+	letter-spacing:20px;
+}
+
+Espacio entre palabras
+word-spacing:20px
+
+Para agregarle una sombra
+
+p {
+	color:blue;
+	font-family:"Verdana";
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	line-height:20px;
+	text-decoration:underline;
+	text-transform:capitalize;
+	letter-spacing:20px;
+	word-spacing:20px;
+	text-shadow:5px 5px 5px #000;
+}

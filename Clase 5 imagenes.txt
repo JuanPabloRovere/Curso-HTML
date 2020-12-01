@@ -1,0 +1,22 @@
+Clase 5 imagenes
+
+Para poner la imagen
+
+	 <img src="Imagen/A.png"/>
+
+Para cambiar el size
+
+	 <img src="Imagen/A.png" width="300" height="300"/>
+
+width ancho, height altura. Igual si pones solo el width o height, el otro se pone proporcial
+
+	 <img src="Imagen/A.png" width="300" height="300" alt="logotipo de toretto"/>
+
+Esta bueno agregar el alt, porque cuando la pagina no encuentra la imagen te pone ese texto explicando que habia.
+
+	 <img src="Imagen/A.png" width="300" height="300" alt="logotipo de toretto" title="logo de toretto"/>
+
+El title, cuando le pasan el mouse por encima les aparece el nombre de la imagen
+
+Para poner una imagen de internet simplemente pongo el link de la direccion de la imagen
+

@@ -1,0 +1,45 @@
+Clase 12 Tablas
+
+Tabla en HTML
+
+<tr>
+  <td>Item 1</td>
+  <td>Item 2</td>
+  <td>Item 3</td>
+  <td>Item 4</td>
+</tr>
+
+Para agregarle bordes
+
+table{
+	border:1px solid #000;
+	
+}
+
+Para agregarle borde a cada celda
+
+table td{
+	 border:1px solid #000;
+}
+
+Para que no quede el espaciado entre cada celda
+
+table{
+	border:1px solid #000;
+	border-collapse:collapse;
+	
+}
+
+Para agrandar cada celda
+
+table td{
+	 border:1px solid #000;
+	 padding:20px;
+}
+
+Para que cambie de color cuando paso el mousse encima
+
+table tr:hover{
+	background:grey;
+}
+

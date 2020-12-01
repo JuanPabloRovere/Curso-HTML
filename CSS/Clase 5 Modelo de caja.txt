@@ -1,0 +1,47 @@
+Clase 5 de CSS Modelo de caja
+
+Modelo de caja: permite establecer el diseno del sitio web, es el encargado de que los elementos se representen como cajas rectangulares
+
+Ponerle fondo a las letras
+
+h1, h2, h3, h4, h5, h6, p {
+    background:#FF8000;
+}
+
+Elementos tipo bloque o tipo linea
+
+El bloque abarca toda la linea de la pantalla
+El linea abarca solo las palabras seleccionadas
+
+Para modificar el ancho de un bloque selecciono el div o lo que quiera cambiar y le pongo lo siguiente
+Le puedo poner altura poniendole un height pero no se usa tanto, mejor poner el ancho y que el alto abarque el texto que haya
+Para agregar un margen usar margin, si le pones dos valores el 1ero es el de arriba  y abajo, y el 2ndo de los costados
+Para agregarle un margen interno usar padding, es el mismo criterio que con margin
+Ojo con el height y el padding, si tiene 200 de height y le agrego padding 50, en total va a abarcar 250
+border para los bordes
+Los tipos de bordes son:
+solid
+dotted
+double
+dashed
+groove
+ridge
+inset
+outset
+
+
+div {
+	width:500px;
+	background:#ff8000;
+	margin:20px 50px;
+        padding:30px 10px;
+}
+
+Para poner los elementos en linea al final le agrego
+div {
+	width:500px;
+	background:#ff8000;
+	margin:20px 50px;
+        padding:30px 10px;
+        display:inline-block
+}

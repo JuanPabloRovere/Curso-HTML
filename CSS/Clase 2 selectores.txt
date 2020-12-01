@@ -1,0 +1,46 @@
+Clase 2 de CSS Selectores
+
+* (el asterisco) es un selector universal y te va a modificar todo lo que hay en la pagina
+
+margin (agregar margen)
+padding (margen interno que tienen los elementos)
+
+*{margin:0;
+  padding:0;
+ }
+
+Selectores de etiqueta
+
+Si uso la , le puedo poner el efecto a mas de una etiqueta
+h2,h3,h4{
+	color:red;
+	 }
+
+Para cambiar tamano de fuente se le dice en pixeles
+
+h1 {
+     font-size:20px;
+}
+
+Selectores descendentes
+
+Sirven para apuntarle a algo dentro de los elementos, por ejemplo algo dentro del parrafo.
+Aca me buscaria los elementos 'a' que estan dentro del 'p' y modificaria solo esos
+p a {
+	color:green;
+	font-size:30px;
+}
+
+Selectores de clase, lo selecciono por la clase y lo modifica. (APROVECHAR ESTA HERRAMIENTA)
+
+En el de html
+
+<a href="#" class="yellow">Toretto</a>
+
+En el de css
+
+.yellow {
+	color:violet;
+	font-size:30px;
+}
+

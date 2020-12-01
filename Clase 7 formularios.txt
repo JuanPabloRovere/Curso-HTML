@@ -1,0 +1,65 @@
+Clase 7 formularios
+
+<form></form>
+
+Puede ser <form action="datos.php"> (procesa toda la info que le mandemos por el formulario
+method="POST" o "GET" la forma en la que le vamos a mandar la info al action
+
+Para poner una entrada de texto
+    <input type="text">
+
+Para poner dentro del cuadrito una descripcion
+
+<input type="text" value="Escribe tu nombre">
+
+Si cambio value por placeholder el texto se desaparece solo al clickearlo ( MUCHO MEJOR )
+
+Para limitar la cantidad de caracteres que quiero que ponga el usuario
+
+<input type="text" value="Escribe tu nombre" maxlength="3">
+
+El name es como se identifica esa parte del texto en todas las paginas ( al agregarlo mi pc recordo en todas las pags que yo habia puesto mi nombre)
+Todo lo de label e id estan conectados, yo le pongo un Id a lo que estoy haciendo y lo etiqueto con el label, al hacerlo cuando yo le haga click a Ingrese su nombre 
+me va a tirar directamente al lugar donde tengo que poner el texto
+  <label for="nombre">Ingrese su nombre:</label>
+    <input type="text" placeholder="Escribe tu nombre" maxlength="3" name="nombre" id="nombre">
+
+Puedo hacer lo mismo pero usando password, esto va a aparecer como las contras 
+
+   <input type="password">
+
+
+Lo mismo pero para poner el email
+
+    <input type="email">
+
+Agregar una casilla para poner un check
+
+<input type="checkbox"> Hombre (y otro igual pero que diga mujer por ej)
+
+El problema de esto es que podes seleccionar ambas opciones, si queres que solo seleccione una de las dos usar el sig
+
+<input type="radio"> Hombre
+
+Para poner un boton usar
+
+<input type="button" value="Enviar"> 
+
+Para que finalmente envie los datos usar submit
+
+<input type="submit" value="Enviar data"> 
+
+Para poner un cuadrito que te deje seleccionar entre diferentes opciones
+
+<select name>
+  <option value="Mexico">Mexico</option>
+  <option value="Colombia">Colombia</option>
+</select name>
+
+Para darle a elegir entre un color
+
+<input type="color">
+
+Para que elija entre un rango
+
+<input type="range">

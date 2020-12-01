@@ -1,0 +1,31 @@
+Clase 1 CSS
+ 
+Sirve para darle color, forma y estilo a las paginas
+
+Para que mi archivo de html agarre el estilo de css, dentro del html tiene que estar lo siguiente
+
+<head>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+Sino se puede usar solo 1 archivo, y dentro del HTML poner (usar solo si quiero hacer algo asi nomas y rapido.
+
+<style type="text/css>
+
+/*reglas CSS*/
+
+</style>
+
+Para cambiar el color de fondo de alguna seccion usar
+
+body {background: #000000;}
+
+Para cambiar el color de las letras (fff es blanco)
+
+ body {background: #000000;
+       color:#fff
+ }
+
+para poner comentarios
+
+/* cosas que escribo para mi */

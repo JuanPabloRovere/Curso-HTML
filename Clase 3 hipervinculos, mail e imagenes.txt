@@ -1,0 +1,29 @@
+Ejemplo de codigo para poner un hiperviculo. Siempre poner con el http
+
+	 <a href="https://www.google.com.ar/?hl=es-419">Ir a google papurri</a>
+
+Para que el link se abra en una pestana diferente a la que estoy usando agregarle
+
+ <a target="_blank" href="https://www.google.com.ar/?hl=es-419">Ir a google papurri</a>
+
+target="_blank"
+
+poner un archivo dentro de la carpeta que estoy haciendo la pagina
+
+	 <a href="Imagen/A.png">Ir a fotardi papurri</a>
+
+para poner un archivo javascript dentro de otro (para que no haya tanto codigo en uno y quede mas limpio)
+
+<script src="archivo.js"></script>
+
+Agregar el icono de la pagina
+
+<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.ico">
+
+Para que te envien un mail, cuidado que al ponerlo asi te pueden llenar de spam
+
+<a href="mailto:contacto@gmail.com" title="Enviar correo a toreto">Enviar Mail</a>
+
+
+
+

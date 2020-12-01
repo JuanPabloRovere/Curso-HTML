@@ -1,0 +1,47 @@
+Clase 9 de CSS ENLACES
+
+Todos los cambios de texto se pueden hacer igual en los enlaces, para sacarle el subrayado
+a{
+	 font-size:40px;
+	 text-decoration:none;
+	 margin:10 px 20px 40px 10px; (los 4 valores van como las manos del reloj, arriba, derecha, abajo e izquierda
+}
+
+4 estados de un link
+
+Para decirle que propiedades va a tener un sitio que nunca visitaron
+
+a:link{
+       color:#DF1338;
+}
+
+Para armar un cuadrito que queda muy bien usar padding, hace un espaciado entre el texto y la caja
+
+a{ 
+   padding:10px 10px 10px 10px;
+}
+
+Le decis que va a pasar una vez que vos ya le des click(se usa con algunos botones)
+a:active{
+   background:#ff8000;
+}
+
+Que efecto quiero que tenga cuando le paso el mouse por arriba
+a:hover{
+        text-decoration:undeline;
+        background:black;
+        color:white;
+}
+
+COmo se muestran los enlaces que visitaste
+a:visited{
+    text-decoration:line;
+}
+
+Para que los enlaces se vean como botones, una buena forma de hacer sentir al usuario que interacciona es usar el box shadow,
+1. que este automaticamente
+2. que con el hover se haga mas chica
+3. que desaparezca cuando la clickea
+
+
+

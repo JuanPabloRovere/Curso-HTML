@@ -1,0 +1,20 @@
+Clase 9 metadatos y etiquetas
+
+Metadatos= info que le damos al internet para que nos busquen mas facil. Se escriben siempre dentro de head. Se cierra por si sola
+name=tipo de meta que vamos a usar
+content=descripcion del sitio web, poner info reducida para que lo encuentren facil
+keywords= ya no se usan tanto porque googlle los descarta, pero los podes agregar para que este mas completo
+
+<meta name="description" content="toretto sentado y parado">
+<meta name="keywords" content="desarrollo, paginas web, diseno">
+
+Para abrir el estilo que yo le voy a dar con el CSS
+
+<link rel="stylesheet" type="text/css" href="nombrearchivo.css"
+
+Agregar codigo de javascript, por ejemplo traer otro archivo de javascrpt a este
+<script src=""></script>
+
+
+
+

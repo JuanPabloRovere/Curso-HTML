@@ -1,0 +1,48 @@
+Clase 6 de CSS Fondos
+
+Si le quiero hacer el fondo a toda la pagina agarro el body
+
+body {
+      background:#000;
+}
+
+Podria poner una imagen
+
+body {
+      background:url(imagen/A.png);
+}
+
+Para que no se repita agrego
+
+body {
+      background:url(imagen/A.png);
+      background-repeat:no-repeat;
+}
+
+Para que se repita pero solo en horizontal (vertical -y)
+
+body {
+      background:url(imagen/A.png);
+      background-repeat:repeat-x;
+}
+
+Para que cuando baje el mouse el fondo quede fijo
+
+
+body {
+      background:url(imagen/A.png);
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+}
+
+Para posicionarlo
+
+
+body {
+      background:url(imagen/A.png);
+      background-repeat:no-repeat;
+      background-attachment:scroll;
+      background-position:500px 200px; (si pongo center en los numeros lo pone en el centro)
+}
+
+

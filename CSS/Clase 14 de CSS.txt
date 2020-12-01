@@ -1,0 +1,147 @@
+Clase 14 de CSS Layout, estructra basica
+
+Ejemplo en html de una estructuar basica
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Document</title>  
+
+  </head>
+   
+<body>   
+
+<header>
+
+<div class="logotipo">
+  <img src="https://ae01.alicdn.com/kf/HTB1b87.XtfvK1RjSszhq6AcGFXaB.jpg" width="100">
+  </div>
+  
+  <nav>
+    <ul>
+	  <li><a href="#">Inicio</a></li>
+	  <li><a href="#">Acerca de</a></li>
+	  <li><a href="#">Servicios</a></li>
+	  <li><a href="#">Contacto</a></li>
+	</ul>
+  </nav>
+
+</header>
+
+<section class="main">
+  <section class="articulo">
+  <article>
+
+   <h2>Titulo de la pagina web</h2>
+   <p>Dominic Toretto es un personaje de ficción protagonista de la saga cinematográfica The Fast and the Furious. Interpretado por Vin Diesel, el personaje fue creado por el guionista Gary Scott Thompson. Toretto, uno de los apodos de Dominic, fue introducido en la primera película de la serie The Fast and the Furious.​</p>
+     </article>
+	 
+	   <article>
+
+   <h2>Titulo de la pagina web</h2>
+   <p>Dominic Toretto es un personaje de ficción protagonista de la saga cinematográfica The Fast and the Furious. Interpretado por Vin Diesel, el personaje fue creado por el guionista Gary Scott Thompson. Toretto, uno de los apodos de Dominic, fue introducido en la primera película de la serie The Fast and the Furious.​</p>
+     </article>
+  </section>
+  
+  <aside>
+  
+    <h3>Este es el Sidebar de toreto</h3>
+	<p>Dominic Toretto es un personaje de ficción protagonista de la saga cinematográfica The Fast and the Furious. Interpretado por Vin Diesel, el personaje fue creado por el guionista Gary Scott Thompson. Toretto, uno de los apodos de Dominic, fue introducido en la primera película de la serie The Fast and the Furious</p>
+  
+  </aside>
+  
+</section>
+
+<footer>
+
+<p>La primera película de la serie The Fast and the Furious</p>
+
+</footer>
+
+	
+  </form> 
+   	   <link rel="stylesheet" href="css/estilos.css">
+   
+</body>
+   
+</html>
+
+COMO HACER EN CSS PARA QUE NO HAYA NINGUN LAYUT PREDETERMINADO
+
+*{
+	margin:0;
+	padding:0;
+}
+
+EJEMPLO FINAL DE COMO HACERLO EN CSS
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#e6e6e6
+}
+
+header, .main, footer{
+	width:90%;
+	margin:20px auto;
+	max-width:1000px;
+}
+
+header nav{
+	background:#528FD5;
+	overflow:hidden;
+}
+
+header nav ul{
+	list-style:none;
+	}
+	
+header nav ul li{
+	float:left;
+}
+
+header nav ul li a{
+	padding:10px 20px;
+	display:block;
+	color:white;
+	text-decoration:none;
+}
+
+header nav ul li a:hover{
+	background:#75ACEC;
+}
+
+.main .articulo{
+	width:68.5%;
+	float:left;
+	background:white;
+	margin-right:1.5%
+}
+
+.main .articulo article{
+	padding:20px;
+	background:#fff;
+	margin-bottom:20px;
+}
+
+aside{
+	width:30%;
+	background:yellow;
+	float:left;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+footer{
+	background:#000;
+	color:white;
+	clear:both;
+	padding:10px 0px;
+	text-align:center;
+}

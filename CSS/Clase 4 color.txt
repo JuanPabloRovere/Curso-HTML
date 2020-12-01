@@ -1,0 +1,36 @@
+Clase 4 de CSS unidades de color
+
+5 formas de poner colores:
+con palabras clave
+colores del sistema
+rgb exadecimak
+rgb numerico
+rgb porcentual
+
+Con palabras clave (puedo buscar lista de colores con palabras en internet, no se usa tanto porque no tenes control)
+h1 {
+    color:aqua;
+}
+
+Con decimal (usar la pagina de colores y darle bola al R G B)
+
+h1 {
+    color:rgb(53,131,44);
+}
+
+Con exadecimal (se usan los 6 digitos que te da la pagina de colores #)
+
+h1 {
+    color:#4D9B44;
+}
+
+Con porcentaje (usar los valores a la derecha de los RGB de la pagina)
+
+h1 {
+    color:10%, 20%, %50;
+}
+
+Si al rgb, le pongo rgba, el cuarto valor del parentesis va a ser el de la trasnparencia
+
+
+

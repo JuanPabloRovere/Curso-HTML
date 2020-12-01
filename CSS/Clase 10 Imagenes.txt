@@ -1,0 +1,28 @@
+Clase 10 de CSS IMAGENES
+
+Si le pongo un valor en HTML a la iamgen y le pongo otro en CSS, va a tomar el de CSS
+
+Es importante cuando trabajo con div e img a la vez, usar % en el div, asi todos los cambios que haga se van a hacer en funcion del otro
+
+Para centrar una imagen (siempre tiene que estar dentro de un contenedor como un div), se usa el margin
+
+img{
+     height:auto;
+     width:500px;
+     margin:auto;
+     display:block;
+}
+
+div{
+    background:grey;
+    width:100%;
+}
+
+Para redondear los bordes agregar esto en el img (si pongo 50% queda un circulo)
+
+	border-radius:5px;
+
+Para que quede como un cuadro agregar
+
+	padding:10px;
+	border:1px black;

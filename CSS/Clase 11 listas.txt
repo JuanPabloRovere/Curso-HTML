@@ -1,0 +1,64 @@
+Clase 11 de CSS Listas
+
+Para cambiar el estilo de los circulitos (circle, square, etc.)
+ul {
+	list-style-type:circle;
+}
+
+Se puede hacer lo mismo con las listas ordenadas con numero (para que la lista tenga un 0 adelante uso lo sig)
+
+ol{
+	list-style-type:decimal-leading-zero;
+}
+
+Para hacer la lista con letras
+
+ol{
+	list-style-type:upper-latin;
+}
+
+Para organizar mejor los espacios de la lista
+
+ul{
+	list-style-type:square;
+	list-style-position:inside;
+}
+
+EJEMPLO DE MENU
+
+HTML
+<ul class="menu">   
+         <li><a href="#">Inicio</a></li>
+		 <li><a href="#">Item 1</a></li>
+		 <li><a href="#">Item 2</a></li>
+		 <li><a href="#">Contacto</a></li>
+
+		 </ul>
+
+
+CSS
+
+.menu{
+	 width:100%;
+	 background:#000;
+	 list-style:none;
+	 margin:0;
+	 padding:0;
+}
+
+.menu li{
+	display:inline-block;
+	
+}
+
+.menu li a{
+	padding:10px 20px;
+	display:inline-block;
+	color:white;
+}
+
+.menu li a:hover{
+	background:grey;
+	color:black;
+}
+

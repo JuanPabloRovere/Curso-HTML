@@ -1,0 +1,25 @@
+Clase 6 tablas
+
+Usar las tablas solo para mostrar datos, no para armar la pagina
+
+ <table>
+	   <tr>
+	      <td>cosa #1</td>
+		  <td>cosa #2</td>
+		  <td>cosa #3</td>
+	   </tr>
+	     <tr>
+	      <td>cosa #1</td>
+		  <td>cosa #2</td>
+		  <td>cosa #3</td>
+	   </tr>
+	     <tr>
+	      <td>cosa #1</td>
+		  <td>cosa #2</td>
+		  <td>cosa #3</td>
+	   </tr>
+	 </table>
+
+Tr significa fila
+Td columna
+

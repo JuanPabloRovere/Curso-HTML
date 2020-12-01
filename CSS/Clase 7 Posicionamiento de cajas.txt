@@ -1,0 +1,55 @@
+Clase 7 de CSS Posicionamiento de cajas
+Los elementos bloque los pone uno abajo del otro
+
+5 tipos de posicionamientos
+
+1) static, no se escribe porque es por defecto
+
+2)relativa, permite posicionar una caja y despues posiciconarla en funcion de su lugra original.
+Si le agrego valor al left, se mueve a la derecha (se le sumaria al 0), si le pongo a top lo manda para abajo y asi sucesivamente
+
+.caja {
+	position:relative;
+	top:;
+	bottom:;
+	right:299px;
+	left:200px;
+}
+
+3)absoluta, la caja deja de influir en el lugar donde estaba antes y funciona independientemente. No se suele usar mucho.
+
+.caja {
+	position:absolute;
+	top:;
+	bottom:;
+	right:299px;
+	left:200px;
+}
+
+4)fijo, cuando scrolleas el archivo se queda en el mismo lugar de la ventana
+
+.caja {
+	position:fixed;
+	top:;
+	bottom:;
+	right:299px;
+	left:200px;
+}
+
+5)flotante, permite desplazar todas las cajas para donde yo quiera (float). Es la base para crear los disenos de columnas
+
+
+div {
+     width: 100px;
+	 height: 100px;
+	 background:#4A88F4;
+	 color:#fff;
+	 font-size:30px;
+	 float:left;
+}
+
+
+
+
+
+

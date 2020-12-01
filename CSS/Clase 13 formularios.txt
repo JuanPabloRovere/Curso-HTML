@@ -1,0 +1,107 @@
+Clase 13 de CSS  FORMULARIOS
+
+Algunas cosas que se le pueden poner al form para que tenga sentido
+
+form{
+	width:25%;
+	border:1px solid #ccc;
+	margin:20px;
+	padding:20px;
+	
+}
+
+El label por defecto pone los elementos en linea, entonces para que cada elemento abarque una linea y se ponga abajo del otro uso lo siguiente
+
+label{
+	font-size:12px;
+	display:block;
+	width:100%
+}
+
+Para darle forma a la caja
+
+input, textarea{
+	margin-bottom:20px;
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+Para que cuando le haga click a la caja, cambie de color o pase algo FOCUS
+
+input:focus, textarea:focus{
+	border:1px solid #1668C4;
+	
+}
+
+Para que puedan agrandar o no las cajas (podes poner vertical u horizontal)
+
+textarea{
+	resize:none;
+}
+
+Para controlar el tamano
+
+textarea{
+	resize:vertical;
+	max-height:200px;
+	min-height:50px;
+}
+
+Para modificar el boton
+
+input[type="submit"]{
+	margin-bottom:0px;
+	background:#1668C4;
+	border:none;
+	color:white;
+}
+
+Para que el boton cambie de color cuando pase encima
+
+input[type="submit"]:hover{
+	background:#4A88F4;
+}
+
+Para que cambie el cursor y se ponga la mano cmo si fuese un boton
+
+input[type="submit"]:hover{
+	background:#4A88F4;
+	cursor:pointer;
+}
+
+COMO LO ARME NE EL HTML
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Document</title>  
+
+  </head>
+   
+<body>   
+   
+  <form>
+    <label for="nombre">Ingrese su nombre:</label>
+    <input type="text" placeholder="Escribe tu nombre" maxlength="3" name="nombre" id="nombre">
+	
+	<label for="contra">Ingrese su contra:</label>
+    <input type="password" placeholder="Escribe tu contra" maxlength="5" name="password" id="contra">
+
+<label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+	
+	<input type="submit" value="Enviar">
+
+	
+	
+  </form> 
+   	   <link rel="stylesheet" href="css/estilos.css">
+   
+</body>
+   
+</html>

@@ -1,0 +1,32 @@
+Clase 8 Estructura
+
+Encabezado o header, pie de pagina o footer, contenido, y a la derecha el sidebar.
+
+Para poner contenido grafico
+<div></div>
+
+Para poner encabezado
+<header></header>
+
+Para hacer un menu,
+        <nav>
+	   <ul>
+	     <li><a href="#">Inicio</a></li>
+	   	 <li><a href="#">Categoria</a></li>
+	     <li><a href="#">Categ</a></li>	   
+	   </ul>
+	</nav>
+
+Para encerrar todo nuestro contenido en uno solo (wrapper=contenedor)
+
+<section class="wrapper"></section>
+
+El contenido que google va a buscar primero y le va a dar mas importancia
+
+<article></article>
+
+Para poner el pie de pagina
+
+<footer></footer>
+
+
